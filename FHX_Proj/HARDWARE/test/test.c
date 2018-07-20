@@ -479,9 +479,9 @@ static void Auto_LC_DN(void)
 
 	WC_Peak=U_i/U_Iu;    //µ¼ÄÉ
 	
-	if(WC_Peak>7.26)
+	if(WC_Peak>3.3)
 			Swith_LC(3);
-	else if(WC_Peak>0.726)
+	else if(WC_Peak>0.33)
 			Swith_LC(2);
 	else
 			Swith_LC(1);
